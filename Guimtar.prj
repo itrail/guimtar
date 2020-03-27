@@ -1,17 +1,17 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
-  <configuration file="D:\Matlab\guimtar\Guimtar.prj" location="D:\Matlab\guimtar" name="Guimtar" target="target.ezdeploy.standalone" target-name="Application Compiler">
+  <configuration file="D:\Matlab\guimtar sprint03\Guimtar.prj" location="D:\Matlab\guimtar sprint03" name="Guimtar" target="target.ezdeploy.standalone" target-name="Application Compiler">
     <param.appname>Guimtar</param.appname>
     <param.icon />
     <param.icons />
     <param.version>1.0</param.version>
-    <param.authnamewatermark />
+    <param.authnamewatermark>Guimtarist</param.authnamewatermark>
     <param.email />
-    <param.company />
+    <param.company>Guimtar company</param.company>
     <param.summary />
     <param.description />
     <param.screenshot>${PROJECT_ROOT}\logo.png</param.screenshot>
     <param.guid />
-    <param.installpath.string>\Guimtar\</param.installpath.string>
+    <param.installpath.string>\Guimtar company\Guimtar\</param.installpath.string>
     <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
     <param.logo />
     <param.install.notes />
@@ -46,9 +46,7 @@
       <param.icon />
       <param.icons />
       <param.version />
-      <param.authnamewatermark />
       <param.email />
-      <param.company />
       <param.summary />
       <param.description />
       <param.guid />
@@ -90,12 +88,17 @@
       <file>${PROJECT_ROOT}\button_my-equipment.png</file>
       <file>${PROJECT_ROOT}\button_sound-recorder.png</file>
       <file>${PROJECT_ROOT}\button_tabs-collection.png</file>
+      <file>${PROJECT_ROOT}\frequencies.mat</file>
+      <file>${PROJECT_ROOT}\home.png</file>
       <file>${PROJECT_ROOT}\logo.png</file>
+      <file>${PROJECT_ROOT}\tac.wav</file>
+      <file>${PROJECT_ROOT}\tic.wav</file>
+      <file>${PROJECT_ROOT}\toc.wav</file>
     </fileset.depfun>
     <build-deliverables>
-      <file location="${PROJECT_ROOT}\Guimtar\for_testing" name="splash.png" optional="false">D:\Matlab\guimtar\Guimtar\for_testing\splash.png</file>
-      <file location="${PROJECT_ROOT}\Guimtar\for_testing" name="Guimtar.exe" optional="false">D:\Matlab\guimtar\Guimtar\for_testing\Guimtar.exe</file>
-      <file location="${PROJECT_ROOT}\Guimtar\for_testing" name="readme.txt" optional="true">D:\Matlab\guimtar\Guimtar\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\Guimtar\for_testing" name="splash.png" optional="false">D:\Matlab\guimtar sprint03\Guimtar\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\Guimtar\for_testing" name="Guimtar.exe" optional="false">D:\Matlab\guimtar sprint03\Guimtar\for_testing\Guimtar.exe</file>
+      <file location="${PROJECT_ROOT}\Guimtar\for_testing" name="readme.txt" optional="true">D:\Matlab\guimtar sprint03\Guimtar\for_testing\readme.txt</file>
     </build-deliverables>
     <workflow />
     <matlab>
